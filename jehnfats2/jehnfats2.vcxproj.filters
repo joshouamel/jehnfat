@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="nk">
+      <UniqueIdentifier>{edaa47e0-9262-426d-a01a-9a4730ead3d1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="fatfs_t.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="fatdir_t.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="fatfs_typedef.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="fat32.h">
+      <Filter>nk</Filter>
+    </ClInclude>
+    <ClInclude Include="fat32_demo.h">
+      <Filter>nk</Filter>
+    </ClInclude>
+    <ClInclude Include="kor_char_code.h">
+      <Filter>nk</Filter>
+    </ClInclude>
+    <ClInclude Include="mmc.h">
+      <Filter>nk</Filter>
+    </ClInclude>
+    <ClInclude Include="spi.h">
+      <Filter>nk</Filter>
+    </ClInclude>
+    <ClInclude Include="uart.h">
+      <Filter>nk</Filter>
+    </ClInclude>
+    <ClInclude Include="bsp.h">
+      <Filter>nk</Filter>
+    </ClInclude>
+    <ClInclude Include="fileHandle0.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="handler.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="mediaAccess.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="fileHandle1.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="fileHandle2.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="fatfs_t.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="fat32_demo.c">
+      <Filter>nk</Filter>
+    </ClCompile>
+    <ClCompile Include="kor_char_code.c">
+      <Filter>nk</Filter>
+    </ClCompile>
+    <ClCompile Include="mmc.c">
+      <Filter>nk</Filter>
+    </ClCompile>
+    <ClCompile Include="spi.c">
+      <Filter>nk</Filter>
+    </ClCompile>
+    <ClCompile Include="uart.c">
+      <Filter>nk</Filter>
+    </ClCompile>
+    <ClCompile Include="fat32.c">
+      <Filter>nk</Filter>
+    </ClCompile>
+    <ClCompile Include="fileHandle0.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="mediaAccess.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="fileHandle1.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="fat32_demo.hex">
+      <Filter>nk</Filter>
+    </None>
+    <None Include="makefile">
+      <Filter>nk</Filter>
+    </None>
+  </ItemGroup>
+</Project>
